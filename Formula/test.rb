@@ -4,9 +4,9 @@
 class Test < Formula
   desc "我是一个测试的脚本"
   homepage ""
-  url "https://github.com/Linzehua2015/homebrew-haha/blob/master/test.tar.gz"
-  version "0.0.1"
-  sha256 "30b08321d0f3e2a573105b56e93cffe5a2aca5990a0c4a0a2b56289117d3404f"
+  url "https://github.com/Linzehua2015/homebrew-haha/raw/master/test.tgz"
+  version "0.0.3"
+  sha256 "3e36b504800064e766762e987da24526333a1e151543a6e2f2dcb6d901e079de"
   # depends_on "cmake" => :build
 
   def install

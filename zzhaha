@@ -1,0 +1,3 @@
+#!/bin/bash
+echo 成功啦，哈哈哈哈哈哈哈!
+echo $1
