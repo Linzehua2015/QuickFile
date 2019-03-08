@@ -4,9 +4,9 @@
 class Zzhaha < Formula
   desc ""
   homepage ""
-  url "https://github.com/Linzehua2015/homebrew-haha/raw/master/zzhaha.tar.gz"
-  version "0.0.2"
-  sha256 "7b50a3e14dd0fa284ee7456de18564ed8bca8bd84a3ba32eb6f7e65f7d05fb3e"
+  url "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-haha/zzhaha.tar.gz"
+  version "0.0.3"
+  sha256 "377a09834439bfd558914ae1a0aed7f77a4fbd44fbc8b48b688e22a53e23a9ad"
   # depends_on "cmake" => :build
 
   def install
