@@ -4,9 +4,9 @@
 class Zzhaha < Formula
   desc ""
   homepage ""
-  url "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-haha/zzhaha.tar.gz"
+  url "https://github.com/Linzehua2015/homebrew-haha/raw/master/zzhaha.tar.gz"
   version "0.0.3"
-  sha256 "377a09834439bfd558914ae1a0aed7f77a4fbd44fbc8b48b688e22a53e23a9ad"
+  sha256 "6b5a281dd35939ba7c29fce5bba035bca743412f7b82449c592a69aabe715739"
   # depends_on "cmake" => :build
 
   def install
@@ -17,7 +17,8 @@ class Zzhaha < Formula
                           "--disable-silent-rules",
                           "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
-    system "make", "install" # if this fails, try separate make/make install steps
+#    system "make", "install" # if this fails, try separate make/make install steps
+    bin.install "install"
   end
 
   test do
